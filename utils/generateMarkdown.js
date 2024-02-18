@@ -1,5 +1,5 @@
 // function to generate markdown for README
-function generateMarkdown(data) {
+function generateMarkdown(data) { //markdown template
   let licenseBadge = "No license selected";
   switch (data.license) { 
     case "MIT":
