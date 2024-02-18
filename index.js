@@ -3,7 +3,7 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// array of questions for user
+// list of questions 
 const questions = [
 {   type: 'input',
     message: 'What is the project name?',
